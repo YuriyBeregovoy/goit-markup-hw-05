@@ -149,7 +149,20 @@ img {
   color: var(--pressed-state-color);
 }
 .link.current {
+  position: relative;
   color: var(--pressed-state-color);
+}
+.link.current::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0%;
+
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--pressed-state-color);
 }
 .address-items {
   display: flex;
