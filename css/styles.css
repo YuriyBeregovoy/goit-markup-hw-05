@@ -362,8 +362,8 @@ button {
   fill: var(--light-slate-color);
   transition: fill var(--timing-function);
 }
-.customers-list-item:hover .customers-link-icon,
-.customers-list-item:focus .customers-link-icon {
+.customers-link:hover .customers-link-icon,
+.customers-link:focus .customers-link-icon {
   fill: var(--pressed-state-color);
 }
 
